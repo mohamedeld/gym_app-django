@@ -8,6 +8,7 @@ class Meal(models.Model):
     description = models.TextField(max_length=1000)
     image = models.ImageField(upload_to="meals/")
     
+    
     def no_of_ratings(self):
         ratings = Rating.objects.filter(meal=self)
         return len(ratings)

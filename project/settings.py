@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'exercises_app',
     'profile_app',
     'story',
+    'partner_app',
+    'calories_app',
 ]
 
 MIDDLEWARE = [
